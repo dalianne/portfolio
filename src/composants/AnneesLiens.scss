@@ -1,0 +1,18 @@
+.AnneesLiens ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        font-family: 'Chivo', sans-serif;
+        font-size: 10vw;
+        padding-top: 25vh;
+    }
+    
+    li:not(:first-of-type) {
+        padding-left: 2vw;
+    }
+}

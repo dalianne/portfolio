@@ -1,0 +1,41 @@
+.Apropos {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    h2 {
+        margin: 8vh 0 20px 0;
+        font-family: 'Chivo', sans-serif;
+        font-size: 7vw;
+    }
+    
+    p {
+        margin: 20px 0;
+        width: 60vw;
+        max-width: 550px;
+        text-align: center;
+    }
+    
+    ul {
+        margin: 20px 0;
+
+        li {
+            text-align: center;
+
+            a {
+                font-style: italic;
+            }    
+        }
+        
+        .liensMedias {
+            display: flex;
+            flex-flow: row;
+
+            li img{
+                width: 1.5em;
+                height: auto;
+                margin: 0 10px;
+            }    
+        }
+    }
+}
