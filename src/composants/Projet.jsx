@@ -4,7 +4,7 @@ export default function Projet(props) {
     return (
         <li className="Projet">
             <div className="image">
-                <img src={"../src/images/medias/" + props.id} alt={props.nom}/>
+                <img src={`${process.env.PUBLIC_URL}/medias${props.annee}/${props.id}.${props.type}`} alt="..."/>
             </div>
             <div className="info">
                 <p>{props.desc}</p>

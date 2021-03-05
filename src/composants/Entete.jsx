@@ -1,18 +1,19 @@
+import {Link, NavLink} from "react-router-dom"
+import logo from "../images/logo.png"
 import "./Entete.scss"
-import APropos from "./APropos"
 
 export default function Entete() {
-  return (
-    <header className="Entete">
-            <h1>go.Dali</h1>
-            <img src="logo.png" alt="go.dali"/>
-        <div class="nav">
-            <p>fr / en</p>
-            <ul>
-                <li class="actif"><a href="../public/index.html">Projets</a></li>
-                <li><a href="../public/aPropos.html">À propos</a></li>
-            </ul>
-        </div>
-    </header> 
-  );
+    return (
+        <header className="Entete">
+            <Link to="/"><h1>go.Dali</h1></Link>
+            <img src={logo} alt="go.dali"/>
+            <div className="nav">
+                <p>fr / en</p>
+                <ul>
+                    <li><NavLink to="/" activeClassName="actif">Projets</NavLink></li>
+                    <li><NavLink to="a-propos" activeClassName="actif">À propos</NavLink></li>
+                </ul>
+            </div>
+        </header> 
+    );
 }

@@ -1,0 +1,11 @@
+.ListeProjets {
+    display: block;
+    flex-flow: column;
+    align-items: center;
+
+    h2 {
+        margin: 8vh 0 20px 0;
+        font-family: 'Chivo', sans-serif;
+        font-size: 7vw;
+    }
+}

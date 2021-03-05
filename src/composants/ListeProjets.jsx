@@ -1,16 +1,31 @@
-import Projet from './Projet';
+import {Switch, Route} from "react-router-dom"
+import Projet from './Projet'
 import tabProjets from "../data/projets.json"
-import "./ListeProjets.scss"
+import './ListeProjets.scss'
 
-export default function ListeProjets() {
+export default function ListeProjets(props) {
     return (
-        <div className="ListeProjets">
-            <h2></h2>
+        <section className={"ListeProjets "+props.annee}>
+            <h2>{props.annee}</h2>
             <ul>
-            {tabProjets.map(projet => 
-                    <Projet id={projet.id} lien={projet.lien} desc={projet.desc} />
-                )}
+                <Switch>
+                    <Route path="/2020">
+                        {tabProjets.p2020.map(projet => 
+                            <Projet annee={props.annee} id={projet.id} type={projet.type} lien={projet.lien} desc={projet.desc} />
+                        )}
+                    </Route>
+                    <Route path="/2019">
+                        {tabProjets.p2019.map(projet => 
+                            <Projet annee={props.annee} id={projet.id} type={projet.type} lien={projet.lien} desc={projet.desc} />
+                        )}
+                    </Route>
+                    <Route path="/2018">
+                        {tabProjets.p2018.map(projet => 
+                            <Projet annee={props.annee} id={projet.id} type={projet.type} lien={projet.lien} desc={projet.desc} />
+                        )}
+                    </Route>
+                </Switch>
             </ul>
-        </div>
+        </section>
     );
 }

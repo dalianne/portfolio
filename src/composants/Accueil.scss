@@ -1,4 +1,4 @@
-.AnneesLiens ul {
+.Accueil ul {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -11,8 +11,17 @@
         font-size: 10vw;
         padding-top: 25vh;
     }
-    
+
     li:not(:first-of-type) {
         padding-left: 2vw;
+    }
+
+    a {
+        font-family: 'Chivo', sans-serif;
+        font-size: 10vw;
+    }
+
+    a:hover {
+        color: #A9BF04;
     }
 }
