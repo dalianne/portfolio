@@ -1,0 +1,129 @@
+{
+    "Entete": {
+        "projets": "Projects", 
+        "apropos": "Contact"
+    },
+    "APropos": {
+        "titre": "Contact", 
+        "desc": "Multimedia student in Montreal, I am very interested in graphic design. My name is Dalianne Gosselin and I want to deepen my knowledge and prove myself in the creative field."
+    },
+    "Projets": {
+        "p2021":
+        [
+            {
+                "id": "0001", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "Photo edited to remove Simone's grimace."        
+            },
+            {
+                "id": "0002", 
+                "type": "jpg",
+                "lien": "", 
+                "desc": "Exercise of redesign of the Technique d'intégration multimédia du Collège de Maisonneuve's website"        
+            },
+            {
+                "id": "0003", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "CLICK ON TO PLAY - RPG video game created as a team (Artistic direction, media creation, programming)"        
+            }
+        ],
+        "p2020":
+        [
+            {
+                "id": "0001", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "Photo edited to remove Simone's grimace."        
+            },
+            {
+                "id": "0002", 
+                "type": "jpg",
+                "lien": "", 
+                "desc": "Exercise of redesign of the Technique d'intégration multimédia du Collège de Maisonneuve's website"        
+            },
+            {
+                "id": "0003", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "CLICK ON TO PLAY - RPG video game created as a team (Artistic direction, media creation, programming)"        
+            }
+        ],
+        "p2019":
+        [
+            {
+                "id": "0001", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "CLICK TO WATCH - March for the environment on September 27th, 2019 in Montreal."        
+            },
+            {
+                "id": "0002", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "CLICK TO WATCH - Exercise of creating a trailer for an imaginary film. School teamwork (production, video editing)."        
+            },
+            {
+                "id": "0003", 
+                "type": "png",
+                "lien": "", 
+                "desc": "Eva B boutique website redesign exercise. At the time, their site did not represent the brand at all."        
+            },
+            {
+                "id": "0004", 
+                "type": "png",
+                "lien": "", 
+                "desc": ""        
+            },
+            {
+                "id": "0005", 
+                "type": "png",
+                "lien": "", 
+                "desc": ""        
+            }
+        ],
+        "p2018":
+        [
+            {
+                "id": "0001", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "CLICK TO READ - Book on sexual consent for teens."        
+            },
+            {
+                "id": "0002", 
+                "type": "jpg",
+                "lien": "", 
+                "desc": "Illustration created on Photoshop without a graphics tablet."        
+            },
+            {
+                "id": "0003", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "Photo edited to remove the car."        
+            },
+            {
+                "id": "0004", 
+                "type": "gif",
+                "lien": "", 
+                "desc": "Photo edited to remove unimportant items."        
+            },
+            {
+                "id": "0005", 
+                "type": "jpg",
+                "lien": "", 
+                "desc": "Poster creation exercise for an imaginary music festival."        
+            },
+            {
+                "id": "0006", 
+                "type": "png",
+                "lien": "", 
+                "desc": "Photo montage inspired by the famous painter René Magritte."        
+            }
+        ]
+    },
+    "Footer": {
+        "texte": "Follow me on Instagram: @go.dali"
+    }
+}

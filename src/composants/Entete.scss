@@ -23,9 +23,15 @@
         position: absolute;
         right: 0;
 
-        p {
+        button {
+            display: flex;
+            border: none;
             text-align: right;
             font-size: 2vw;
+        }
+
+        button:hover {
+            cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto !important; /* https://www.cursors-4u.com */
         }
         
         ul {

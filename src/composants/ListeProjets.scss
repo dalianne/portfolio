@@ -1,11 +1,37 @@
 .ListeProjets {
-    display: block;
-    flex-flow: column;
-    align-items: center;
+    margin: 3vh 0 20vh 0;
 
     h2 {
-        margin: 8vh 0 20px 0;
+        margin: 5vh 0 20px 0;
         font-family: 'Chivo', sans-serif;
         font-size: 7vw;
+        text-align: center;
+    }
+    
+    ul {
+        margin: 0 15px 0 15px ;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;    
+    } 
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+        .suivant, .precedent {
+            margin: 100px 50px 0 50px;
+
+            span {
+                a {
+                    font-size: 6vw;
+                    font-family: 'Chivo', sans-serif;
+                }
+
+                a:hover {
+                    color: #A9BF04;
+                }
+            }
+        }
     }
 }

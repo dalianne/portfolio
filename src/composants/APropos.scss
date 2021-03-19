@@ -16,7 +16,7 @@
         text-align: center;
     }
     
-    ul {
+    ul:not(.liensMedias) {
         margin: 20px 0;
 
         li {
@@ -24,18 +24,27 @@
 
             a {
                 font-style: italic;
+                border-bottom: 1px solid #0D0D0D;
             }    
+
+            a:hover {
+                color: #A9BF04;
+                border-bottom: 1px solid #A9BF04;
+            }
         }
         
-        .liensMedias {
-            display: flex;
-            flex-flow: row;
-
-            li img{
-                width: 1.5em;
-                height: auto;
-                margin: 0 10px;
-            }    
-        }
     }
+
+    .liensMedias {
+        display: flex;
+        flex-flow: row;
+        margin: 20px 0;
+
+        li img {
+            width: 1.5em;
+            height: auto;
+            margin: 0 10px;
+        }    
+    }
+
 }

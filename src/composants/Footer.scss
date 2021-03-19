@@ -3,5 +3,43 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 0.7em 0 0 0 ;
     text-align: center;
+    background-color: #A9BF04;
+
+    .marquee {
+        height: 1em;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        font-size: 2em;
+        background-color: #A9BF04;
+
+        div {
+            display: block;
+            width: 200vw; /* ÇA doit toujours être le double de */
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            overflow: normal;
+        
+            animation: marquee 15s linear infinite;
+
+            span {
+                margin: 0;
+                padding: 0;    
+                float: left;
+                width: 50%;
+                font-family: 'Chivo', sans-serif;
+                background-color: #A9BF04;
+            }
+        }
+        
+        @keyframes marquee {
+        0% { left: 0; }
+        100% { left: -100vw; /* ÇA pour fonctionner*/ }
+        }    
+    }
 }
