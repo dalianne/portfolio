@@ -9,7 +9,7 @@ import "./Appli.scss"
 
 export default function Appli() {
     const cookies = new Cookies()
-    if(cookies.get("lang")==="fr"){
+    if(cookies.get("lang")==="fr") {
         console.log("lang: fr")
     }
     else if (cookies.get("lang")==="en") {
@@ -47,5 +47,5 @@ export default function Appli() {
 
             <Footer />
         </div>
-    );
+    )
 }

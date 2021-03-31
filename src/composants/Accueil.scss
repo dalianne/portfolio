@@ -1,27 +1,31 @@
-.Accueil ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.Accueil { 
+    width: 70vw;
+    margin: 0 auto;
 
-    li {
-        font-family: 'Chivo', sans-serif;
-        font-size: 8.5vw;
-        padding-top: 25vh;
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin: 0;
+        padding: 15vh 0 0 0;
+        list-style: none;
 
-        .dash {
-            display: flex;
-        }
-
-        a {
+        li {
             font-family: 'Chivo', sans-serif;
-            font-size: 8.5vw;
-        }
+            font-size: 13vw;
 
-        a:hover {
-            color: #A9BF04;
+            .dash {
+                display: flex;
+            }
+
+            a {
+                font-family: 'Chivo', sans-serif;
+                font-size: 13vw;
+            }
+
+            a:hover {
+                color: #A9BF04;
+            }
         }
     }
 }
@@ -29,22 +33,26 @@
 /************************************************************* Début media querries */
 /* Téléphone */
 @media screen and (max-width: 700px) {
-    .Accueil ul {
-        margin: 90px 0 0 0;
-        flex-flow: column;
-        align-items: center ;
+    .Accueil {
+        width: 80vw;
 
-        li {
+        ul {
+            margin: 40px 0 100px 0;
+            flex-flow: column;
+            align-items: center ;
             padding: 0;
 
-            a {
-                font-size: 20vw;
+            li {
+                padding: 0;
 
+                a {
+                    font-size: 25vw;
+                }
             }
-        }
 
-        .dash {
-            display: none;
+            .dash {
+                display: none;
+            }
         }
     }
 }

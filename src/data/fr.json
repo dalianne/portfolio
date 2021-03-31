@@ -13,20 +13,8 @@
             {
                 "id": "0001", 
                 "type": "gif",
-                "lien": "", 
-                "desc": "Photo éditée pour retirer la grimace de Simone."        
-            },
-            {
-                "id": "0002", 
-                "type": "jpg",
-                "lien": "", 
-                "desc": "Exercice de refonte du site web de la Technique d'intégration multimédia du Collège de Maisonneuve."        
-            },
-            {
-                "id": "0003", 
-                "type": "gif",
-                "lien": "", 
-                "desc": "CLIQUEZ POUR JOUER - Jeu vidéo RPG créé en équipe (Direction artistique, création des médias, programmation)"        
+                "lien": "https://indd.adobe.com/view/49ff7260-43d9-40b8-8f2f-799f7614b723", 
+                "desc": "CLIQUEZ POUR LIRE - Zine créé dans le but d'explorer le logiciel Adobe InDesign."        
             }
         ],
         "p2020":
@@ -46,7 +34,7 @@
             {
                 "id": "0003", 
                 "type": "gif",
-                "lien": "", 
+                "lien": "https://toxiccity.netlify.app/", 
                 "desc": "CLIQUEZ POUR JOUER - Jeu vidéo RPG créé en équipe (Direction artistique, création des médias, programmation)"        
             }
         ],
@@ -55,32 +43,20 @@
             {
                 "id": "0001", 
                 "type": "gif",
-                "lien": "", 
+                "lien": "https://youtu.be/aL3Jor948KA", 
                 "desc": "CLIQUEZ POUR VISIONNER - Marche pour l'environnement du 27 septembre 2019 à Montréal."        
             },
             {
                 "id": "0002", 
                 "type": "gif",
-                "lien": "", 
+                "lien": "https://youtu.be/9KEwlMSjukw", 
                 "desc": "CLIQUEZ POUR VISIONNER - Exercice de création d'une bande-annonce pour un film imaginaire. Travail d'équipe dans le cadre scolaire (réalisation, montage vidéo)."        
             },
             {
                 "id": "0003", 
-                "type": "png",
+                "type": "gif",
                 "lien": "", 
                 "desc": "Exercice de refonte du site web de la boutique Eva B. À l'époque, leur site ne représentait pas du tout la marque."        
-            },
-            {
-                "id": "0004", 
-                "type": "png",
-                "lien": "", 
-                "desc": ""        
-            },
-            {
-                "id": "0005", 
-                "type": "png",
-                "lien": "", 
-                "desc": ""        
             }
         ],
         "p2018":
@@ -88,7 +64,7 @@
             {
                 "id": "0001", 
                 "type": "gif",
-                "lien": "", 
+                "lien": "https://drive.google.com/file/d/1uBjGuS2ia1P5TwyGh7HFG0yH4yqD0801/view?usp=sharing", 
                 "desc": "CLIQUEZ POUR LIRE - Livre sur le consentement sexuel."        
             },
             {

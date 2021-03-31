@@ -16,7 +16,7 @@ export default function Footer() {
 
     return (
         <footer className="Footer">
-            <a href="https://www.instagram.com/go.dali/">
+            <a href="https://www.instagram.com/go.dali/" target="blank">
                 <div className="marquee">
                     <div>
                         <span>{texte}</span>

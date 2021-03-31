@@ -35,3 +35,18 @@
         }
     }
 }
+
+/************************************************************* Début media querries */
+/* Téléphone */
+@media screen and (max-width: 700px) {
+    .ListeProjets {
+        ul {
+            margin: 0 15px 0 15px ;
+            display: flex;
+            flex-flow: column;
+            align-content: center;    
+            align-content: center;
+            align-items: center;
+        } 
+    }
+}

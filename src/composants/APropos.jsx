@@ -23,16 +23,16 @@ export default function APropos(props) {
             <h2>{titre}</h2>
             <p>{desc}</p>
             <ul>
-                <li><a href="https://drive.google.com/file/d/1w6NsvFy4VNniWNI0wQKPFrucbJ-A5o_r/view?usp=sharing">Curriculum Vitæ</a></li>
+                <li><a href="https://drive.google.com/file/d/1w6NsvFy4VNniWNI0wQKPFrucbJ-A5o_r/view?usp=sharing" target="blank">Curriculum Vitæ</a></li>
             </ul>
             <ul>
                 <li>(438) 396-2765</li>
                 <li><a href="mailto: dalianne.gosselin@hotmail.com">dalianne.gosselin@hotmail.com</a></li>
             </ul>
             <ul className="liensMedias">
-                <li><a href="https://www.linkedin.com/in/dalianne-gosselin/"><img src={linkedin} alt="LinkedIn"/></a></li>
-                <li><a href="https://www.instagram.com/go.dali/"><img src={instagram} alt="Instagram"/></a></li>
-                <li><a href="https://pin.it/jPJMkN3"><img src={pinterest} alt="Pinterest"/></a></li>
+                <li><a href="https://www.linkedin.com/in/dalianne-gosselin/" target="blank"><img src={linkedin} alt="LinkedIn"/></a></li>
+                <li><a href="https://www.instagram.com/go.dali/" target="blank"><img src={instagram} alt="Instagram"/></a></li>
+                <li><a href="https://pin.it/jPJMkN3" target="blank"><img src={pinterest} alt="Pinterest"/></a></li>
             </ul>
         </section>
     );

@@ -23,12 +23,10 @@ export default function Entete() {
         if(cookies.get("lang")==="fr"){
             cookies.set('lang', 'en')
             window.location.reload()
-            console.log("change lang: en")
         }
         else if (cookies.get("lang")==="en") {
             cookies.set('lang', 'fr')
             window.location.reload()
-            console.log("change lang: fr")
         }
     }
     
@@ -38,7 +36,7 @@ export default function Entete() {
             <img src={logo} alt="go.dali"/>
             <div className="nav">
                 <button onClick={handleClick}>
-                    <div>fr</div> / <div>en</div>
+                    fr / en
                 </button>
                 <ul>
                     <li><NavLink to="/" activeClassName="actif" exact >{projet}</NavLink></li>
